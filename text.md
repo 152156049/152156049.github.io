@@ -6,3 +6,6 @@ git remote add xiaoye git@github.com:152156049/Resume.git
 
 <!-- 推送到远程仓库 -->
  git push -u xiaoye master
+
+ <!-- 我的网址 -->
+  https://152156049.github.io/1512156049.github.io/.
