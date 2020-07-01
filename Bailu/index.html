@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Cpmpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>响应式页面-作业</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <script src="https://cdn.staticfile.org/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+</head>
+
+<!-- 头部导航栏部分开始 -->
+
+<div class="y_box">
+    <div class="container y_container">
+        <nav class="navbar navbar-default y_navbar">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header y_header col-md-3 col-md-offset-1">
+                    <button type="button" class="navbar-toggle collapsed y_navbar_toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+                    <img class="hidden-xs hidden-sm" src="./img/logo.png" alt="" width="50%">
+                    <span class="hidden-sm hidden-md hidden-lg y_logospan">白鹭科技</span>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse col-md-8" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav y_navbar_nav ">
+                        <li><a href="javascript:;">首页</a></li>
+                        <li><a href="javascript:;">产品</a></li>
+                        <li><a href="javascript:;">解决方案</a></li>
+                        <li><a href="javascript:;">开发者中心</a></li>
+                        <li><a href="javascript:;">案例</a></li>
+                        <li><a href="javascript:;">社区</a></li>
+                        <li><a href="javascript:;">关于我们</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+</div>
+<!-- 头部导航栏部分结束 -->
+
+<!-- PC端轮播图开始 -->
+<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators y_carousel_indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="./img/md-lbt1.jpg" alt="..." width="100%">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/md-lbt2.png" alt="..." width="100%">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/md-lbt3.png" alt="..." width="100%">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a> -->
+
+    <div class="y_lbudhl">
+        <ul>
+            <li>
+                <a href="javascript:;"><img src="./img/daoh1.png" alt=""><span>白鹭科技优势</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="./img/daoh2.png" alt=""><span>白鹭引擎服务</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="./img/daoh3.png" alt=""><span>游戏案例精选</span></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="./img/daoh4.png" alt=""><span>开发者快速入门</span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- PC端轮播图结束 -->
+
+<!-- 手机端轮播图开始 -->
+<div id="y_xs_example_generic" class="carousel slide hidden-sm hidden-md hidden-lg" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#y_xs_example_generic" data-slide-to="0" class="active"></li>
+        <li data-target="#y_xs_example_generic" data-slide-to="1"></li>
+        <li data-target="#y_xs_example_generic" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="./img/xs-lbt1.png" alt="..." width="100%">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/xs-lbt2.png" alt="..." width="100%">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/xs-lbt3.png" alt="..." width="100%">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#y_xs_example_generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#y_xs_example_generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- 手机端轮播图结束 -->
+
+
+<div class=".container-fluid y_container_blyq">
+    <!-- 白鹭引擎开始 -->
+    <!-- 标题 -->
+    <div class="col-xs-12 .col-md-12 y_biaoti">
+        <img src="./img/tupiao.png" alt="">
+        <span>白鹭引擎</span>
+        <a class="pull-right" href="https://www.egret.com/">https://www.egret.com/参考作品</a>
+    </div>
+    <!-- 轮播图内容 -->
+    <div class="y_engineContain">
+        <h2>效率至上的完整开发工作流</h2>
+        <p>2D/3D双核心渲染，开发工具链闭环整合，全流程开发，由此开始</p>
+        <!-- 轮播图 -->
+        <div class="y_engineCarousel">
+            <div id="y_ggao_lbt" class="carousel slide  y_ggao_lbt" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./img/md-djlbt1.png" alt="..." width="100%">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/md-djlbt2.png" alt="..." width="100%">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="./img/md-djlbt3.png" alt="..." width="100%">
+                        <div class="carousel-caption">
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control y_carousel" href="javascript:;">
+                    <span class="glyphicon glyphicon-chevron-left" href="#y_ggao_lbt" role="button" data-slide="prev"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control y_carousel" href="javascript:;">
+                    <span class="glyphicon glyphicon-chevron-right" href="#y_ggao_lbt" role="button" data-slide="next" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- 平台图标 -->
+        <div class="y_engineDuijie">
+            <h3>一站对接各大平台</h3>
+            <div>
+                <ul>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek1.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek2.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek3.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek4.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek5.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek6.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek7.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek8.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek9.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek10.png" alt=""></li>
+                    <li class="col-sm-2 col-md-1"><img src="./img/jiek11.png" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 白鹭引擎结束 -->
+
+    <!-- 案例介绍开始 -->
+    <!-- 标题 -->
+    <div class="col-xs-12 .col-md-12 y_biaoti">
+        <img src="./img/tupiao.png" alt="">
+        <span>案例推荐</span>
+        <div class="pull-right hidden-xs y_ckgd"><a href="javascript:;">查看更多</a></div>
+    </div>
+    <!-- PC端案例 -->
+    <div class="hidden-xs y_aljs_pc">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./img/md-anli1.png" alt="...">
+                    <div class="caption">
+                        <h4>全民狙击</h4>
+                        <p>这是一款3D第一人称射击类微信小游戏。游戏中，玩家需要扮演一个神射手，利用手中武器消灭关卡中的目标，获得丰富奖励。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./img/md-anli2.jpg" alt="...">
+                    <div class="caption">
+                        <h4>一起打桌球</h4>
+                        <p>这是一款体育竞技类型的3D小游戏对抗性与真实桌球无异,横屏台球桌模式，对抗性与真实桌球无异</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./img/md-anli3.jpg" alt="...">
+                    <div class="caption">
+                        <h4>传奇来了</h4>
+                        <p>微信小程序版还原经典传奇，采用无缝跨屏模式，画面清晰精致，打击感实足。游戏效果写实逼真，角色形象霸气十足！</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./img/md-anli1.png" alt="...">
+                    <div class="caption">
+                        <h4>全民狙击</h4>
+                        <p>这是一款3D第一人称射击类微信小游戏。游戏中，玩家需要扮演一个神射手，利用手中武器消灭关卡中的目标，获得丰富奖励。</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./img/md-anli2.jpg" alt="...">
+                    <div class="caption">
+                        <h4>一起打桌球</h4>
+                        <p>这是一款体育竞技类型的3D小游戏，对抗性与真实桌球无异,横屏台球桌模式，对抗性与真实桌球无异</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="./img/md-anli3.jpg" alt="...">
+                    <div class="caption">
+                        <h4>传奇来了</h4>
+                        <p>微信小程序版还原经典传奇，采用无缝跨屏模式，画面清晰精致，打击感实足。游戏效果写实逼真，角色形象霸气十足！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 手机端案例 -->
+    <div class="hidden-sm hidden-md hidden-lg">
+        <div class="row y_img_width">
+            <div class="col-xs-12">
+                <a href="#" class="thumbnail">
+                    <img src="./img/xs-anli1.png" alt="...">
+                </a>
+            </div>
+
+            <div class="col-xs-12">
+                <a href="#" class="thumbnail">
+                    <img src="./img/xs-anli2.jpg" alt="...">
+                </a>
+            </div>
+
+            <div class="col-xs-12">
+                <a href="#" class="thumbnail">
+                    <img src="./img/xs-anli3.png" alt="...">
+                </a>
+            </div>
+
+
+        </div>
+        <div class="y_ckgd_xs"><a href="javascript:;">查看更多</a></div>
+    </div>
+
+    <!-- 案例介绍结束 -->
+
+    <!-- 新闻动态开始 -->
+    <!-- 标题 -->
+    <div class="col-xs-12 .col-md-12 y_biaoti">
+        <img src="./img/tupiao.png" alt="">
+        <span>新闻动态</span>
+        <div class="pull-right hidden-xs y_ckgd"><a href="javascript:;">查看更多</a></div>
+    </div>
+    <!-- PC -->
+    <div class="hidden-xs hidden-sm">
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail y_thumbnail_xwdt">
+                    <img src="./img/xwdtai1.png" alt="...">
+                    <div class="caption">
+                        <h4>Egret Pro 1.0 重磅发布 ：不仅仅是一款3D编辑器</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail y_thumbnail_xwdt">
+                    <img src="./img/xwdtai2.png" alt="...">
+                    <div class="caption">
+                        <h4>5G+云游戏火爆 白鹭科技发力进军云游戏</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail y_thumbnail_xwdt">
+                    <img src="./img/xwdtai3.png" alt="...">
+                    <div class="caption">
+                        <h4>白鹭科技始终坚持合法经营 从未涉足区块链代币业务</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 手机 -->
+    <div class="hidden-md hidden-lg">
+        <div class="y_js_xwdt">
+            <div class="y_js_box">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4">
+                        <a href="#" class="thumbnail">
+                            <img src="./img/xwdtai1.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-8">
+                        <h4>Egret Pro 1.0 重磅发布 ：不仅仅是一款3D编辑器</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4">
+                        <a href="#" class="thumbnail">
+                            <img src="./img/xwdtai2.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-8">
+                        <h4>5G+云游戏火爆 白鹭科技发力进军云游戏</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4">
+                        <a href="#" class="thumbnail">
+                            <img src="./img/xwdtai3.png" alt="...">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-8">
+                        <h4>白鹭科技始终坚持合法经营 从未涉足区块链代币业务</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="y_ckgd_xs"><a href="javascript:;">查看更多</a></div>
+        </div>
+    </div>
+    <!-- 新闻动态结束 -->
+
+    <!-- 技术博客开始 -->
+    <div class="y_jsbkSqrt">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <div class="y_Jsbk">
+                    <div class="col-xs-12 .col-md-12 y_biaoti">
+                        <img src="./img/tupiao.png" alt=" ">
+                        <span>技术博客</span>
+                        <div class="pull-right hidden-xs hidden-sm y_ckgd"><a href="javascript:;">查看更多</a></div>
+                    </div>
+                    <div class="y_jsbknr">
+                        <!-- PC端 -->
+                        <div id="y_jsbknr" class="carousel slide y_jsbknr_carousel hidden-xs hidden-sm" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-3 col-md-5 y_jsbkimg">
+                                            <a href="#" class="thumbnail">
+                                                <img src="./img/jsbk1.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-8 col-sm-9 col-md-7 y_jsbktext">
+                                            <p>白鹭引擎Runtime更新，支持打包谷歌64位Apk，优化App Store上传规则</p>
+                                            <p>2019年7月23日，白鹭引擎Runtime更新，推荐所有开发者更新。</p>
+                                            <p><a href="javascript:;">详情</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-3 col-md-5 y_jsbkimg">
+                                            <a href="#" class="thumbnail">
+                                                <img src="./img/jsbk2.jpg" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-8 col-sm-9 col-md-7 y_jsbktext">
+                                            <p>白鹭引擎Runtime更新，支持打包谷歌64位Apk，优化App Store上传规则</p>
+                                            <p>2019年7月23日，白鹭引擎Runtime更新，推荐所有开发者更新。</p>
+                                            <p><a href="javascript:;">详情</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="row">
+                                        <div class="col-xs-4 col-sm-3 col-md-5 y_jsbkimg">
+                                            <a href="#" class="thumbnail">
+                                                <img src="./img/jsbk3.png" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="col-xs-8 col-sm-9 col-md-7 y_jsbktext">
+                                            <p>白鹭引擎Runtime更新，支持打包谷歌64位Apk，优化App Store上传规则</p>
+                                            <p>2019年7月23日，白鹭引擎Runtime更新，推荐所有开发者更新。</p>
+                                            <p><a href="javascript:;">详情</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="y_button hidden-xs hidden-sm">
+                            <ul>
+                                <li><img src="./img/xian.png" alt=""></li>
+                                <li>
+                                    <a href="#y_jsbknr" role="button" data-slide="prev">
+                                        <img src="./img/but-left.png" alt="">
+                                    </a>
+                                </li>
+                                <li>2020-06-26</li>
+                                <li>
+                                    <a href="#y_jsbknr" role="button" data-slide="next">
+                                        <img src="./img/but-right.png" alt="">
+                                    </a>
+                                </li>
+                                <li><img src="./img/xian.png" alt=""></li>
+                            </ul>
+                        </div>
+                        <!-- 手机端 -->
+                        <div class="y_jsbknr_sj hidden-md hidden-lg">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-3  y_jsbkimg">
+                                    <a href="#" class="thumbnail">
+                                        <img src="./img/jsbk1.jpg" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col-xs-8 col-sm-9  y_jsbktext">
+                                    <p>白鹭引擎Runtime更新，支持打包谷歌64位Apk，优化App Store上传规则</p>
+                                    <p>2019年7月23日，白鹭引擎Runtime更新，推荐所有开发者更新。</p>
+                                    <p><a href="javascript:;">详情</a></p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-3  y_jsbkimg">
+                                    <a href="#" class="thumbnail">
+                                        <img src="./img/jsbk2.jpg" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col-xs-8 col-sm-9  y_jsbktext">
+                                    <p>白鹭引擎Runtime更新，支持打包谷歌64位Apk，优化App Store上传规则</p>
+                                    <p>2019年7月23日，白鹭引擎Runtime更新，推荐所有开发者更新。</p>
+                                    <p><a href="javascript:;">详情</a></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-3  y_jsbkimg">
+                                    <a href="#" class="thumbnail">
+                                        <img src="./img/jsbk3.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="col-xs-8 col-sm-9  y_jsbktext">
+                                    <p>白鹭引擎Runtime更新，支持打包谷歌64位Apk，优化App Store上传规则</p>
+                                    <p>2019年7月23日，白鹭引擎Runtime更新，推荐所有开发者更新。</p>
+                                    <p><a href="javascript:;">详情</a></p>
+                                </div>
+                            </div>
+                            <div class="y_ckgd_xs"><a href="javascript:;">查看更多</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+                <div class="y_Sqrt">
+                    <div class="col-xs-12 .col-md-12 y_biaoti">
+                        <img src="./img/tupiao.png" alt="">
+                        <span>社区热帖</span>
+                        <div class="pull-right hidden-xs y_ckgd"><a href="javascript:;">查看更多</a></div>
+                    </div>
+                    <div class="y_Sqrtnr">
+                        <ul>
+                            <li><a href="javascript:;"><span>矩形区域的碰撞检测</span><span class="pull-right">12345</span></a></li>
+                            <li><a href="javascript:;"><span>矩形区域的碰撞检测</span><span class="pull-right">12345</span></a></li>
+                            <li><a href="javascript:;"><span>矩形区域的碰撞检测</span><span class="pull-right">12345</span></a></li>
+                            <li><a href="javascript:;"><span>矩形区域的碰撞检测</span><span class="pull-right">12345</span></a></li>
+                            <li><a href="javascript:;"><span>矩形区域的碰撞检测</span><span class="pull-right">12345</span></a></li>
+                            <li><a href="javascript:;"><span>矩形区域的碰撞检测</span><span class="pull-right">12345</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 技术博客结束 -->
+    </div>
+
+
+</div>
+
+<!-- 合作伙伴开始 -->
+<div class="y_Hzhb">
+    <div class="y_container_blyq">
+        <div class="col-xs-12 .col-md-12 y_biaoti">
+            <img src="./img/tupiao.png" alt=" ">
+            <span>合作伙伴</span>
+        </div>
+        <div class="y_hzhbnr">
+            <ul class="row">
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb1.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb2.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb3.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb4.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb5.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb6.png" alt=""></li>
+            </ul>
+            <ul class="row">
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb6.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb5.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb4.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb3.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb2.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb1.png" alt=""></li>
+            </ul>
+            <ul class="row">
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb6.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb3.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb2.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb5.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb4.png" alt=""></li>
+                <li class="col-md-2 col-xs-4"><img src="./img/hzhb1.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 合作伙伴结束 -->
+
+<!-- 页尾开始 -->
+<div class="y_Ywei">
+    <div class="y_container_blyq">
+        <div class="row">
+            <ul class="col-xs-12 col-sm-8 col-md-7  y_gywm">
+                <li class="col-md-3 col-xs-3"><a href="javascript:;">关于我们</a></li>
+                <li class="col-md-3 col-xs-3"><a href="javascript:;">产品下载</a></li>
+                <li class="col-md-3 col-xs-3"><a href="javascript:;">技术支持</a></li>
+                <li class="col-md-3 col-xs-3"><a href="javascript:;">加入我们</a></li>
+            </ul>
+            <ul class="col-xs-12 col-sm-4 col-md-5  y_youx">
+                <li class="col-md-7 col-md-offset-4">联系电话：010-57222734</li>
+                <li class="col-md-4 hidden-sm hidden-md hidden-lg">商务合作：BD@egret.com</li>
+                <li class="col-md-4 hidden-sm hidden-md hidden-lg">市场合作：Marketing@egret.com</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 页尾结束 -->
+
+</body>
+
+</html>
