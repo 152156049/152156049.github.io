@@ -10,6 +10,6 @@ git remote add xiaoye git@github.com:152156049/Resume.git
 
 git push -u xiaoye master
 
- <!-- 我的网址 -->
+ <!-- 我的首页网址 -->
 
 https://152156049.github.io/
