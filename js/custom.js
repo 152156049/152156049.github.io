@@ -32,3 +32,13 @@ jQuery(document).ready(function($) {
 $(".navbar-collapse").css({
     maxHeight: $(window).height() - $(".navbar-header").height() + "px"
 });
+
+$('#open').on("click", function(e) {
+    $('#main-menu').stop().slideToggle()
+})
+$(document).on("click", function(e) {
+    if ($(e.target).closest("#main-menu").length == 0 && $(e.target).closest("#open").length == 0) {
+        $('#main-menu').stop().slideUp()
+
+    }
+})
