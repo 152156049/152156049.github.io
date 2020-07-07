@@ -27,12 +27,11 @@
 }
 
 .y_biaoti_nr {
-    width: 95%;
-    height: 77%;
     margin: auto auto;
     border-radius: 30px;
-    padding: 30px 20px 0 20px;
+    padding: 30px 20px;
     background-color: rgba(255, 255, 255, .3);
+    transition: all .5s;
 }
 
 .y_biaoti_nr .y_biaoti_row .thumbnail {
@@ -46,33 +45,30 @@
     width: 35%;
 }
 
+.y_biaoti_row>div {
+    color: aliceblue;
+}
+
 .y_biaoti_nr .y_biaoti_row>div:first-child {
-    border-right: 1px aliceblue solid;
+    /* border-right: 1px aliceblue solid; */
     text-align: center;
 }
 
 .y_biaoti_row>div:first-child ul {
+    width: 200px;
+    margin: 0 auto;
     text-align: left;
     list-style: none;
     padding: 0;
     line-height: 30px;
-    margin-left: 30px;
+    margin-top: 50px;
 }
 
 .y_biaoti_row>div:first-child ul li {
     white-space: nowrap;
 }
 
-.y_biaoti_row>div:first-child ul span,
-.y_biaoti_row>div:first-child ul strong,
-.y_biaoti_row>div:first-child ul i,
-.y_biaoti_row>div:first-child h1,
-.y_biaoti_row>div:first-child h3 {
-    color: aliceblue;
-}
-
 .y_biaoti_row>div:first-child ul strong {
-    color: aliceblue;
     margin: 0 10px;
 }
 
@@ -96,6 +92,14 @@
 
 .carousel-control {
     background: none !important;
+}
+
+.carousel-inner .item {
+    padding: 0 20px;
+}
+
+.y_body {
+    color: #000;
 }
 
 

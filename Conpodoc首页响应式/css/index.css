@@ -1,0 +1,427 @@
+/* 导航栏开始 */
+
+.y_Beijin {
+    background: url(../img/beijin.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.y_comtainer {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.y_Beijin .y_comtainer nav {
+    background: none;
+    border: none;
+}
+
+.y_Beijin .y_comtainer nav .y_header a {
+    padding: 0px;
+}
+
+.y_Beijin .y_navbar_right li a {
+    font-size: 16px;
+    color: #b9c6d8;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+/* 导航栏结束 */
+
+
+/* 页面标语开始 */
+
+.y_comtainer_min {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* opacity: 0; */
+}
+
+.y_biaoyu {
+    width: 100%;
+    height: 336px;
+}
+
+.y_biaoyu_dis {
+    opacity: 0;
+    padding-top: 20px;
+}
+
+.y_biaoyu_top {
+    text-align: center;
+}
+
+.y_biaoyu_top h1 {
+    line-height: 45px;
+    font-size: 37px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.y_biaoyu_top p {
+    line-height: 28px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.y_biaoyu_botton {
+    text-align: center;
+}
+
+.y_biaoyu_botton a {
+    display: inline-block;
+    padding: 20px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 50px 5px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 3px;
+}
+
+.y_biaoyu_botton a:first-child {
+    background-color: #1b4887;
+    border: 1px #fff solid;
+}
+
+.y_biaoyu_botton a:last-child {
+    padding: 14px;
+    background-color: #ef3949;
+    position: relative;
+}
+
+.y_biaoyu_botton a:last-child span {
+    margin-right: 4px;
+}
+
+.y_biaoyu_botton a:last-child::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 5px 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* 页面标语结束 */
+
+
+/* 友情链接开始 */
+
+.y_hzwzBox {
+    width: 100%;
+    /* height: 100px; */
+    padding: 30px 0;
+    border-bottom: 1px solid #dddddd;
+    background-color: #f8f8f8;
+}
+
+.y_hzwzBox .y_hzwz_nr {
+    text-align: center;
+}
+
+.y_hzwzBox .y_hzwz_nr>a {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.y_hzwzBox .y_hzwz_nr span {
+    vertical-align: middle;
+    display: inline-block;
+    border: 1px solid #cdcfd1;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+.y_hzwzBox .y_hzwz_nr span.y_border_none {
+    border: 0;
+    padding: 0;
+}
+
+.y_hzwzBox .y_hzwz_nr span a {
+    color: #434549;
+}
+
+.y_hzwzBox .y_hzwz_nr span a:first-child {
+    border-right: 1px solid #cdcfd1;
+    padding: 3px 5px;
+}
+
+
+/* 友情链接结束 */
+
+
+/* 特征开始 */
+
+.y_Tezhen {
+    background-color: #fff;
+    /* height: 916px; */
+    overflow: hidden;
+    border-bottom: 1px solid #dddddd;
+}
+
+.y_tezhen_top,
+.y_tezhen_botton {
+    position: relative;
+}
+
+.y_tezhen_top li,
+.y_tezhen_botton li {
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    /* border: 1px red solid; */
+}
+
+.y_tezhen_top li:nth-child(odd),
+.y_tezhen_botton li:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.y_tezhen_top li a,
+.y_tezhen_botton li a {
+    display: block;
+}
+
+.y_tezhen_top li span,
+.y_tezhen_botton li span {
+    font-size: 60px;
+    color: #3598db;
+    margin: 20px 0;
+}
+
+.y_tezhen_top li h1,
+.y_tezhen_botton li h1 {
+    font-size: 25px;
+    color: #848484;
+    margin-bottom: 15px;
+}
+
+.y_tezhen_top li p,
+.y_tezhen_botton li p {
+    font-size: 14px;
+    color: #a2a2a2;
+}
+
+
+/* 特征结束 */
+
+
+/* 入门开始 */
+
+.y_Rumen {
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.y_Rumen_daim {
+    width: 40%;
+    /* height: 200px; */
+    background-color: #2c2f3c;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.y_Rumen_daim p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.y_Rumen_daim p:nth-child(odd) i {
+    color: #327bae;
+}
+
+.y_Rumen_shuom h1 {
+    font-size: 18px;
+    text-align: center;
+    color: #6f6f6f;
+    letter-spacing: 2px;
+}
+
+.y_Rumen_shuom h1 a {
+    text-align: center;
+    color: #7dbce5;
+}
+
+
+/* 入门结束 */
+
+
+/* 6主题开始 */
+
+.y_Zhuti {
+    background-color: #ffffff;
+}
+
+.y_Zhuti_nr .y_comtainer li h3 {
+    margin-bottom: 60px;
+}
+
+.y_Zhuti_nr .y_comtainer li h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #636363;
+    letter-spacing: 2px;
+}
+
+
+/* 6主题结束 */
+
+
+/* 用户使用反馈结束 */
+
+.y_Yhufkui {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #dddddd;
+}
+
+.y_Yhufkui_nr .y_thumbnail {
+    padding: 0;
+    border: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    margin-bottom: 40px;
+}
+
+.y_Yhufkui_nr .y_thumbnail h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #7d7d7d;
+}
+
+.y_Yhufkui_nr .y_Yhufkui_but a {
+    line-height: 47px;
+    margin: 20px 0;
+    padding: 0 30px;
+}
+
+
+/* 用户使用反馈结束  */
+
+
+/* 作者团队开始 */
+
+.y_Zuozhe {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.y_Zuozhe_nr {
+    margin-top: 20px;
+}
+
+.y_Zuozhe_nr li {
+    width: 100%;
+    /* height: 100px; */
+    overflow: auto;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.y_Zuozhe_nr li a {
+    margin-right: 5px;
+}
+
+.y_Zuozhe_nr li a:last-child {
+    margin: 0;
+}
+
+.y_img_circle {
+    width: 60px;
+}
+
+.y_img_svg {
+    width: 140px;
+}
+
+.y_weiba {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.y_weiba p a {
+    font-size: 50px;
+    color: #dddddd;
+}
+
+.y_weiba p a:hover {
+    color: #19b9e7;
+}
+
+.y_weiba h3 {
+    font-size: 20px;
+    margin: 30px 0;
+    color: #c1c1c1;
+}
+
+
+/* 作者团队结束 */
+
+
+/* '更多按钮' */
+
+.y_but_gduo {
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 70px;
+}
+
+.y_but_gduo button {
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #b2b2b2;
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.y_but_gduo button:active {
+    background-color: #e7b6b6;
+}
+
+
+/* 标题 */
+
+.y_biaoti {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.y_biaoti .y_biaoti_nr {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    /* display: inline-block; */
+}
+
+.y_biaoti .y_biaoti_nr h1 {
+    font-size: 40px;
+    color: #565656;
+}
+
+.y_biaoti .y_biaoti_xian span {
+    display: inline-block;
+    width: 200px;
+    height: 1px;
+    border-top: 1px #dddddd solid;
+}
+
+.animated {
+    position: relative;
+}

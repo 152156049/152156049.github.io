@@ -6,7 +6,11 @@
         
         @media (min-width: 769px) and (max-width: 990px) {}
         
-        @media (max-width: 990px) {}
+        @media (max-width: 990px) {
+            /* #big-banner {
+                height: 800px;
+            } */
+        }
         /* 手机 */
         
         @media (max-width: 768px) {
@@ -27,11 +31,17 @@
             .y_biaoti_nr .y_biaoti_row .thumbnail img {
                 width: 20%;
             }
+            .y_biaoti_nr {
+                border-radius: 0;
+            }
+            /* #big-banner {
+                height: 600px;
+            } */
         }
         
         @media (max-width: 440px) {
             .y_biaoti_row>div:first-child ul {
-                width: 70%;
+                width: 50%;
                 margin: 0 auto;
                 margin-top: 30px;
             }
@@ -42,7 +52,7 @@
         
         @media (max-width: 360px) {
             .y_biaoti_row>div:first-child ul {
-                width: 90%;
+                width: 70%;
                 margin: 0 auto;
                 margin-top: 30px;
             }

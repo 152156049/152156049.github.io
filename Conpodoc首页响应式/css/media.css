@@ -1,0 +1,65 @@
+/* 笔记本 */
+
+@media (min-width: 991px) and (max-width: 1200px) {}
+
+
+/* 平板 */
+
+@media (min-width: 769px) and (max-width: 990px) {}
+
+
+/* 手机 */
+
+@media (max-width: 768px) {
+    .y_Beijin .y_comtainer {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .y_Beijin .y_comtainer nav .y_header a {
+        padding: 0px 10px;
+        margin-bottom: 50px;
+    }
+    .y_Beijin .y_navbar_right li a {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border: 0;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background: none;
+    }
+    .y_biaoyu_botton a {
+        margin: 10px 20px;
+    }
+    .y_comtainer_min {
+        width: 95%;
+    }
+    .y_hzwzBox .y_hzwz_nr a {
+        margin-bottom: 5px;
+    }
+    .y_xs_y_comtainer {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .y_xs_y_comtainer li {
+        padding: 0 20px;
+    }
+    .y_Rumen_daim {
+        width: 95%;
+    }
+}
+
+@media (max-width: 440px) {
+    .y_biaoyu {
+        height: 410px;
+    }
+}
+
+@media (max-width: 335px) {
+    .y_biaoyu {
+        height: 520px;
+    }
+}
