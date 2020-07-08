@@ -14,6 +14,11 @@
         /* 手机 */
         
         @media (max-width: 768px) {
+            #big-banner {
+                background: url(../images/cool-xs.png) no-repeat center;
+                background-size: cover;
+                padding: 50px 0 0 0;
+            }
             .y_biaoti_nr .y_biaoti_row>div:first-child {
                 border-right: 0;
             }
@@ -34,9 +39,6 @@
             .y_biaoti_nr {
                 border-radius: 0;
             }
-            /* #big-banner {
-                height: 600px;
-            } */
         }
         
         @media (max-width: 440px) {
@@ -55,5 +57,8 @@
                 width: 70%;
                 margin: 0 auto;
                 margin-top: 30px;
+            }
+            .navbar-brand p {
+                font-size: 25px;
             }
         }
