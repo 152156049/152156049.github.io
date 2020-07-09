@@ -1,12 +1,49 @@
 // 作品与案例开始
 .y_Zuopanli {
   .row {
-    div {
-      &:first-child {
-        div {
-          background-color: pink;
+
+    &>div {
+
+      a {
+        position: relative;
+        border: 0;
+        // padding: 0;
+
+
+        span {
+          width: 100%;
+          height: 100%;
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          transition: all .5s;
+          transform-origin: top right;
+          transform: rotate(-90deg);
+          // background-color: rgba(22, 4, 4, 0.466);
+          visibility: hidden;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          letter-spacing: 1px;
+          opacity: 0;
+        }
+
+        &:hover span {
+          @media(min-width:768px) {
+
+            background-color: rgba(22, 4, 4, 0.466);
+            transform: rotate(0deg);
+            // display: block;
+            visibility: visible;
+            color: aliceblue;
+            opacity: 1;
+          }
         }
       }
+
+
     }
   }
 }
