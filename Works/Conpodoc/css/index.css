@@ -26,11 +26,25 @@
     padding-bottom: 40px;
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+    color: #19b9e7;
+}
+
 
 /* 导航栏结束 */
 
 
 /* 页面标语开始 */
+
+.y_lbt {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 12vw;
+}
+
+.carousel-caption h1 {
+    font-size: 2vw;
+}
 
 .y_comtainer_min {
     width: 750px;
@@ -54,15 +68,15 @@
 }
 
 .y_biaoyu_top h1 {
-    line-height: 45px;
-    font-size: 37px;
-    margin-bottom: 40px;
+    /* line-height: 1vw; */
+    font-size: 3vw;
+    margin-bottom: 4vw;
     color: #fff;
 }
 
 .y_biaoyu_top p {
     line-height: 28px;
-    font-size: 16px;
+    font-size: 0.5vw;
     color: #fff;
 }
 

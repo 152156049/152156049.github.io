@@ -52,8 +52,11 @@
 /* 手机 */
 
 @media (max-width: 768px) {
+    .navbar {
+        margin-bottom: 0;
+    }
     .y_Toubudao_nr {
-        padding: 10px 0;
+        /* padding: 10px 0; */
     }
     .y_Dianzhel {
         padding: 50px 0 0 0;

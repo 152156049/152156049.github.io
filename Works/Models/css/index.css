@@ -1,9 +1,21 @@
 /* 头部导航开始 */
 
+.y_Toubudao {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
 .y_Toubudao_nr {
-    width: 95%;
+    /* width: 95%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 30px; */
+}
+
+.y_Toubudao_nr .navbar {
+    border-radius: 0;
 }
 
 .y_Toubudao_nr nav {
@@ -65,6 +77,10 @@
 
 
 /* 轮播图开始结束 */
+
+.y_Lbotu {
+    margin-top: 80px;
+}
 
 .y_lbt_f {
     position: relative;

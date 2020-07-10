@@ -16,13 +16,8 @@ jQuery(document).ready(function($) {
     });
 });
 $(function() {
-    $('.navbar-right li').on('click', function() {
-        var index = $(this).index() + 1
-        $('html,body').animate({
-            scrollTop: $('.y_Weiz').eq(index).offset().top
-        }, 500);
 
-    })
+
     $('.back-to-top a').on('click', function() {
         $('html,body').animate({
             scrollTop: 0
@@ -38,12 +33,13 @@ $(function() {
         $('#main-menu').stop().slideToggle()
     })
     $(document).on("click", function(e) {
-            if ($(e.target).closest("#main-menu").length == 0 && $(e.target).closest("#open").length == 0) {
-                $('#main-menu').stop().slideUp()
+        if ($(e.target).closest("#main-menu").length == 0 && $(e.target).closest("#open").length == 0) {
+            $('#main-menu').stop().slideUp()
 
-            }
-        })
-        // 介绍折叠卡
+        }
+    })
+
+    // 介绍折叠卡
     $('.y_hive').css("display", "none")
     $('.y_but_panel').on('click', 'span', function() {
         $(this).parent().siblings().stop().slideToggle().
