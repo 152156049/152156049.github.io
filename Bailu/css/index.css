@@ -29,7 +29,6 @@ a {
 }
 
 .y_container {
-    width: 100%;
     margin: 0 auto;
     /* background-color: pink; */
 }
@@ -82,11 +81,16 @@ a {
     line-height: 60px;
     margin: 0 auto;
     display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2vw 0;
 }
 
 .y_lbudhl ul li {
     height: 60px;
     padding: 0;
+    padding-right: 20px;
     border-left: 1px #3f3c47 solid;
 }
 
@@ -95,13 +99,13 @@ a {
 }
 
 .y_lbudhl ul li img {
-    max-width: 20%;
+    width: 2vw;
     /* line-height: 60px; */
     margin: 0 15px;
 }
 
 .y_lbudhl ul li span {
-    font-size: 16px;
+    font-size: 0.8vw;
     color: #fff;
 }
 
