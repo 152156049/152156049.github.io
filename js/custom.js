@@ -16,13 +16,8 @@ jQuery(document).ready(function($) {
     });
 });
 $(function() {
-    $('.navbar-right li').on('click', function() {
-        var index = $(this).index() + 1
-        $('html,body').animate({
-            scrollTop: $('.y_Weiz').eq(index).offset().top
-        }, 500);
 
-    })
+
     $('.back-to-top a').on('click', function() {
         $('html,body').animate({
             scrollTop: 0
