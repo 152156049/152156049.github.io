@@ -1,0 +1,540 @@
+/* 头部导航开始 */
+
+.y_Toubudao {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.y_Toubudao_nr {
+    /* width: 95%;
+    margin: 0 auto;
+    padding: 0 30px; */
+}
+
+.y_Toubudao_nr .navbar {
+    border-radius: 0;
+}
+
+.y_Toubudao_nr nav {
+    border: 0;
+    background-color: #fff;
+}
+
+.y_Toubudao_nr nav .y_logo {
+    font-family: 'Srisakdi', cursive;
+    font-weight: 700;
+    color: #FC427B;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+}
+
+.y_Toubudao_nr nav .y_fluid {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.y_Toubudao_nr nav .y_fluid a.y_ative {
+    color: #fc4c82;
+}
+
+.y_Toubudao_nr .y_collapse {
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.y_Toubudao_nr .y_collapse a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #fff;
+    color: #4c5252;
+}
+
+.y_header a {
+    font-size: 50px
+}
+
+.navbar-right {
+    text-align: center;
+}
+
+
+/* .dropdown:hover .y_dropdown {
+    display: block;
+} */
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background: none;
+}
+
+
+/* 头部导航结束 */
+
+
+/* 轮播图开始结束 */
+
+.y_Lbotu {
+    margin-top: 80px;
+}
+
+.y_lbt_f {
+    position: relative;
+}
+
+.y_lbt_nr {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    text-align: right;
+}
+
+.y_lbt_nr h3 {
+    font-size: 20px;
+}
+
+.y_lbt_nr h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+}
+
+.y_lbt_nr div {
+    display: inline-block;
+    margin-top: 50px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    background-color: #fc427b;
+    padding: 15px 30px;
+}
+
+.y_lbt_nr div span {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+#y_indicators li {
+    padding: 6px;
+    border: 3px #fff solid;
+    border-radius: 100%;
+    background-color: #fc427b;
+    margin: 0 3px;
+}
+
+#y_indicators>.active {
+    background-color: #fff;
+    border: 4px #fff solid;
+    box-sizing: border-box;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-inner {
+    max-height: 600px;
+}
+
+
+/* 轮播图结束结束 */
+
+
+/* 网站介绍开始 */
+
+.y_Wzhenjies {
+    margin-top: 50px;
+}
+
+.y_Wzhenjies .y_l_top {
+    padding: 20px 0 0 20px;
+    margin-bottom: 50px;
+}
+
+.y_Wzhenjies .y_l_top h1 {
+    font-size: 35px;
+    color: #212529;
+    line-height: 50px;
+    color: #8c9090;
+    margin-bottom: 20px;
+    text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+}
+
+.y_Wzhenjies .y_l_top h3 {
+    font-style: italic;
+    font-size: 18px;
+    color: #464646;
+    font-weight: bold;
+}
+
+.y_Wzhenjies .y_l_bottom .y_tubiao {
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    font-size: 30px;
+    background-color: #fc427b;
+    border-radius: 50%;
+}
+
+.y_Wzhenjies .y_bottom_text {
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.y_Wzhenjies .y_bottom_text h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.y_Wzhenjies .y_bottom_text p {
+    font-size: 16px;
+    color: #a69999;
+}
+
+
+/* 网站介绍结束 */
+
+
+/* 点这里开始 */
+
+.y_Dianzhel {
+    padding: 50px 0;
+    background-color: #fc427b;
+}
+
+.y_Dianzhel_nr div {
+    text-align: center;
+}
+
+.y_Dianzhel_nr div span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    border-radius: 100%;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.y_Dianzhel_nr div h1 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin: 70px 0 10px 0;
+}
+
+.y_Dianzhel_nr div p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+}
+
+
+/* 点这里结束 */
+
+
+/* 博客文章开始 */
+
+.y_Boke_nr .thumbnail {
+    padding: 0;
+    border: 0;
+}
+
+.y_Boke_nr .caption {
+    padding: 0;
+}
+
+.y_Boke_nr .caption h3 {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+}
+
+.y_Boke_nr .caption a {
+    font-size: 16px;
+    color: #999999;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+.y_Boke_nr .caption a span {
+    font-size: 14px;
+    color: #ff4f81;
+    margin-right: 5px;
+}
+
+.y_Boke_nr .caption p {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: #999999;
+    letter-spacing: 1px;
+}
+
+.y_Boke_nr .y_thumbnail_img {
+    position: relative;
+}
+
+.y_Boke_nr .y_thumbnail_img .y_paim {
+    width: 80px;
+    height: 80px;
+    background-color: #38d2fe;
+    text-align: center;
+    border-radius: 0 30px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.y_thumbnail_img .y_paim h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30%;
+}
+
+.y_thumbnail_img .y_paim span {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+/* 博客文章结束 */
+
+
+/* 时尚外观开始 */
+
+.y_Shishang {
+    margin-top: 5%;
+    padding: 5% 0;
+    padding-bottom: 20%;
+    background: url(../img/bg2.jpg) no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+}
+
+.y_Shishang_nr h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, .3);
+}
+
+.y_Shishang_nr h1 {
+    width: 40%;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.y_Shishang_nr p {
+    width: 40%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+
+
+/* 时尚外观结束 */
+
+
+/* 画廊开始 */
+
+.y_Hualang_nr .thumbnail {
+    padding: 0;
+    border: 0;
+}
+
+.y_Hualang {
+    padding-bottom: 3%;
+}
+
+
+/* 画廊结束 */
+
+
+/* 时事通讯开始 */
+
+.y_Tonxun {
+    background: url(../img/bg3.jpg);
+    padding: 3% 0 7% 0;
+    margin-bottom: 3%;
+}
+
+.y_Tonxun .y_biaoti h1,
+.y_Tonxun .y_biaoti span {
+    color: #fff;
+}
+
+.y_inline .form-group input,
+.y_inline button {
+    display: block;
+    width: 100%;
+    padding: 25px 15px;
+}
+
+.y_inline button {
+    padding: 15px 0;
+    background-color: #38d2fe;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+
+/* 时事通讯结束 */
+
+
+/* 联系我们开始 */
+
+.y_Lianxiwm {
+    padding-bottom: 5%;
+}
+
+.y_Lianxiwm_nr .y_Lianxiwm_left {
+    padding: 7% 0 7% 7%;
+    box-shadow: 5px 0px 11px 0px rgba(0, 0, 0, 0.06);
+    /* line-height: 50px; */
+    margin-bottom: 5%;
+}
+
+.y_Lianxiwm_nr .y_Lianxiwm_left:last-child {
+    margin-bottom: 0;
+}
+
+.y_Lianxiwm_nr .y_Lianxiwm_left h1,
+.y_Lianxiwm_nr .y_Lianxiwm_right h1 {
+    font-size: 25px;
+    color: #38d2fe;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.y_Lianxiwm_nr .y_Lianxiwm_left p {
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+}
+
+.y_Lianxiwm_nr .y_Lianxiwm_right {
+    padding: 7%;
+    box-shadow: 5px 0px 11px 0px rgba(0, 0, 0, 0.06);
+}
+
+.y_Lianxiwm_right input {
+    padding: 5% 10px;
+    margin-bottom: 2%;
+}
+
+.y_Lianxiwm_right textarea {
+    height: 10.1em;
+    resize: none;
+}
+
+.y_Lianxiwm_right button {
+    margin-top: 2%;
+    width: 100%;
+    padding: 3% 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #fc427b;
+}
+
+
+/* 联系我们结束 */
+
+
+/* 页尾开始 */
+
+.y_Yewei {
+    background-color: #212020;
+    padding: 5% 0;
+    border-bottom: 1px solid #646363;
+}
+
+.y_Yewei_nr h1 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 15%;
+}
+
+.y_Yewei_nr h2 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 5%;
+}
+
+.y_Yewei_nr p {
+    font-size: 14px;
+    color: #ababab;
+    line-height: 20px;
+    margin-bottom: 10%;
+}
+
+.y_weiba {
+    background-color: #212020;
+}
+
+.y_weiba p {
+    text-align: center;
+    padding: 1% 0;
+    color: #fff;
+}
+
+
+/* 页尾结束 */
+
+
+/* 标题 */
+
+.y_biaoti {
+    text-align: center;
+    padding: 3% 0 40px 0;
+}
+
+.y_biaoti h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.y_biaoti span {
+    font-size: 16px;
+    color: #c4a699;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* 公共样式 */
+
+.y_container {
+    /* width: 80%; */
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    font-family: 'Poppins', sans-serif;
+}

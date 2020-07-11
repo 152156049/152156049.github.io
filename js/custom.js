@@ -38,12 +38,13 @@ $(function() {
         $('#main-menu').stop().slideToggle()
     })
     $(document).on("click", function(e) {
-            if ($(e.target).closest("#main-menu").length == 0 && $(e.target).closest("#open").length == 0) {
-                $('#main-menu').stop().slideUp()
+        if ($(e.target).closest("#main-menu").length == 0 && $(e.target).closest("#open").length == 0) {
+            $('#main-menu').stop().slideUp()
 
-            }
-        })
-        // 介绍折叠卡
+        }
+    })
+
+    // 介绍折叠卡
     $('.y_hive').css("display", "none")
     $('.y_but_panel').on('click', 'span', function() {
         $(this).parent().siblings().stop().slideToggle().

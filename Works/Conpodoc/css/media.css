@@ -50,16 +50,28 @@
     .y_Rumen_daim {
         width: 95%;
     }
+    .y_biaoyu_top h1 {
+        font-size: 22px;
+    }
+    .y_biaoyu {
+        height: 50vw;
+    }
+    .y_lbt {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 440px) {
     .y_biaoyu {
-        height: 410px;
+        height: 70vw;
     }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 354px) {
     .y_biaoyu {
-        height: 520px;
+        height: 100vw;
+    }
+    .y_lbt {
+        margin-top: 15vw;
     }
 }

@@ -1,0 +1,154 @@
+@media (min-width: 1400px) {
+    .carousel-inner {
+        max-height: 1000px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .y_dropdown {
+        border-radius: 5px;
+        background-color: #333333;
+        right: 0;
+    }
+    .y_Toubudao_nr .y_dropdown li a {
+        background-color: #333333;
+        color: #fff;
+    }
+    .y_Toubudao_nr .y_dropdown li a:hover {
+        background-color: #464242;
+        color: #fff;
+    }
+}
+
+
+/* 笔记本 */
+
+@media (min-width: 991px) and (max-width: 1200px) {}
+
+
+/* 平板 */
+
+@media (min-width: 769px) and (max-width: 990px) {}
+
+@media (max-width: 990px) {
+    .y_Wzhenjies .y_l_bottom .y_tubiao {
+        margin: 0 auto;
+    }
+    .y_Wzhenjies {
+        text-align: center;
+    }
+    .y_Shishang_nr h1 {
+        width: 100%;
+    }
+    .y_Shishang_nr p {
+        width: 100%;
+    }
+    .y_header a {
+        font-size: 30px;
+    }
+}
+
+
+/* 手机 */
+
+@media (max-width: 768px) {
+    .navbar {
+        margin-bottom: 0;
+    }
+    .y_Toubudao_nr {
+        /* padding: 10px 0; */
+    }
+    .y_Dianzhel {
+        padding: 50px 0 0 0;
+    }
+    .y_Dianzhel_nr div {
+        margin-bottom: 30px;
+    }
+    .y_Dianzhel_nr div span {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
+    .y_Dianzhel_nr div h1 {
+        margin: 40px 0 10px 0;
+    }
+    .y_lbt_nr {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        text-align: right;
+    }
+    .y_lbt_nr h3 {
+        font-size: 14px;
+    }
+    .y_lbt_nr h1 {
+        font-size: 30px;
+        margin: 5px 0;
+    }
+    .y_lbt_nr div {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .y_lbt_nr div span {
+        font-size: 10px;
+    }
+    .y_Boke_nr .y_thumbnail_img .y_paim {
+        width: 80px;
+        height: 80px;
+    }
+    .y_Boke_nr .caption p {
+        margin-bottom: 10%;
+    }
+    .y_Shishang_nr h3 {
+        font-size: 14px;
+    }
+    .y_Shishang_nr h1 {
+        width: 60%;
+        font-size: 20px;
+        margin: 10px 0;
+        line-height: 25px;
+    }
+    .y_Shishang_nr p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .y_xs_button {
+        margin-right: 0;
+    }
+    .y_Lianxiwm_right {
+        margin-top: 5%;
+    }
+    .y_header a {
+        font-size: 40px;
+    }
+    .y_dropdown {
+        text-align: center;
+    }
+    .navbar {
+        margin: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    .y_lbt_nr h3 {
+        font-size: 12px;
+    }
+    .y_lbt_nr h1 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+    .y_lbt_nr div {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .y_lbt_nr div span {
+        font-size: 9px;
+    }
+    #y_indicators li {
+        padding: 1%;
+        border: 2px #fff solid;
+    }
+}
+
+@media (max-width: 335px) {}
