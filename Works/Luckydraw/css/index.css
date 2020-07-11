@@ -1,0 +1,130 @@
+html,
+body,
+ul,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* background: url(../images/bj.jpg) no-repeat center; */
+    background: linear-gradient(to bottom right, hsl(240, 31%, 59%), hsl(77, 38%, 52%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.map {
+    width: 450px;
+    height: 450px;
+    /* margin: 50px auto; */
+    position: relative;
+}
+
+.map ul {
+    width: 450px;
+    height: 450px;
+    background-color: #ccc;
+}
+
+.map ul li {
+    width: 126px;
+    height: 126px;
+    padding: 10px;
+    border: 2px solid rgba(51, 51, 51, 0.616);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map ul li:nth-child(1) {
+    left: 0px;
+    top: 0px;
+}
+
+.map ul li:nth-child(2) {
+    left: 150px;
+    top: 0px;
+}
+
+.map ul li:nth-child(3) {
+    left: 300px;
+    top: 0px;
+}
+
+.map ul li:nth-child(4) {
+    left: 300px;
+    top: 150px;
+}
+
+.map ul li:nth-child(5) {
+    left: 300px;
+    top: 300px;
+}
+
+.map ul li:nth-child(6) {
+    left: 150px;
+    top: 300px;
+}
+
+.map ul li:nth-child(7) {
+    left: 0px;
+    top: 300px;
+}
+
+.map ul li:nth-child(8) {
+    left: 0;
+    top: 150px;
+}
+
+.map ul li:nth-child(9) {
+    left: 150px;
+    top: 150px;
+}
+
+.map ul li a {
+    width: 126px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+}
+
+.map ul li a p {
+    font-size: 12px;
+}
+
+.map ul li button {
+    width: 126px;
+    height: 126px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    border: 0;
+}
+
+.txt {
+    display: none;
+    font-size: 30px;
+}
+
+.map .active {
+    width: 146px;
+    height: 146px;
+    border: 2px solid orange;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+}

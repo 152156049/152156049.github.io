@@ -89,7 +89,8 @@ html {
 }
 
 #big-banner {
-    background-image: url(../images/cool-md.png);
+    background-image: url(../images/cool-xs.png);
+    /* background: linear-gradient(to bottom right, hsl(240, 7%, 21%), hsl(149, 59%, 22%)); */
     background-position: center;
     background-size: cover;
     /* margin-top: 100px; */

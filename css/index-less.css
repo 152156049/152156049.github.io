@@ -1,6 +1,161 @@
+@media (max-width: 1170px) {
+  .y_container .cd-timeline-block .cd-timeline-content {
+    margin-left: 40px;
+  }
+}
+.y_Xiangm .cd-timeline-block {
+  margin: -2em 0 !important;
+}
+.y_Xiangm .cd-timeline-block .projects {
+  -webkit-perspective: 500px;
+     -moz-perspective: 500px;
+          perspective: 500px;
+  overflow: visible;
+}
+.y_Xiangm .cd-timeline-block .projects .project-content {
+  text-align: center;
+  top: 50%;
+  background-color: rgba(151, 122, 122, 0.473);
+  -webkit-transform-origin: top center;
+     -moz-transform-origin: top center;
+      -ms-transform-origin: top center;
+       -o-transform-origin: top center;
+          transform-origin: top center;
+  opacity: 0;
+}
+.y_Xiangm .cd-timeline-block .projects .project-content h2,
+.y_Xiangm .cd-timeline-block .projects .project-content span {
+  color: aliceblue;
+}
+@media (min-width: 768px) {
+  .y_Xiangm .cd-timeline-block .projects:hover .project-content {
+    -webkit-animation: myxianm 1.5s;
+       -moz-animation: myxianm 1.5s;
+         -o-animation: myxianm 1.5s;
+            animation: myxianm 1.5s;
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .y_Xiangm .cd-timeline-block .projects .project-content {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes myxianm {
+  0% {
+    -webkit-transform: rotateX(25deg);
+            transform: rotateX(25deg);
+  }
+  20% {
+    -webkit-transform: rotateX(-20deg);
+            transform: rotateX(-20deg);
+  }
+  40% {
+    -webkit-transform: rotateX(15deg);
+            transform: rotateX(15deg);
+  }
+  60% {
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  80% {
+    -webkit-transform: rotateX(5deg);
+            transform: rotateX(5deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+@-moz-keyframes myxianm {
+  0% {
+    -moz-transform: rotateX(25deg);
+         transform: rotateX(25deg);
+  }
+  20% {
+    -moz-transform: rotateX(-20deg);
+         transform: rotateX(-20deg);
+  }
+  40% {
+    -moz-transform: rotateX(15deg);
+         transform: rotateX(15deg);
+  }
+  60% {
+    -moz-transform: rotateX(-10deg);
+         transform: rotateX(-10deg);
+  }
+  80% {
+    -moz-transform: rotateX(5deg);
+         transform: rotateX(5deg);
+  }
+  100% {
+    -moz-transform: rotateX(0deg);
+         transform: rotateX(0deg);
+  }
+}
+@-o-keyframes myxianm {
+  0% {
+    transform: rotateX(25deg);
+  }
+  20% {
+    transform: rotateX(-20deg);
+  }
+  40% {
+    transform: rotateX(15deg);
+  }
+  60% {
+    transform: rotateX(-10deg);
+  }
+  80% {
+    transform: rotateX(5deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+@keyframes myxianm {
+  0% {
+    -webkit-transform: rotateX(25deg);
+       -moz-transform: rotateX(25deg);
+            transform: rotateX(25deg);
+  }
+  20% {
+    -webkit-transform: rotateX(-20deg);
+       -moz-transform: rotateX(-20deg);
+            transform: rotateX(-20deg);
+  }
+  40% {
+    -webkit-transform: rotateX(15deg);
+       -moz-transform: rotateX(15deg);
+            transform: rotateX(15deg);
+  }
+  60% {
+    -webkit-transform: rotateX(-10deg);
+       -moz-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  80% {
+    -webkit-transform: rotateX(5deg);
+       -moz-transform: rotateX(5deg);
+            transform: rotateX(5deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+       -moz-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+.y_Zuopanli {
+  height: 800px !important;
+}
+.y_Zuopanli .y_row_nr img {
+  width: 100%;
+}
 .y_Zuopanli .row > div a {
   position: relative;
   border: 0;
+  overflow: hidden;
 }
 .y_Zuopanli .row > div a span {
   width: 100%;
@@ -23,7 +178,6 @@
       -ms-transform: rotate(-90deg);
        -o-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  visibility: hidden;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -48,18 +202,24 @@
           align-items: center;
   letter-spacing: 1px;
   opacity: 0;
+  visibility: hidden;
+}
+.y_Zuopanli .row > div a span img {
+  width: 100%;
 }
 @media (min-width: 768px) {
   .y_Zuopanli .row > div a:hover span {
+    width: 100%;
+    height: 100%;
     background-color: rgba(22, 4, 4, 0.466);
     -webkit-transform: rotate(0deg);
        -moz-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
          -o-transform: rotate(0deg);
             transform: rotate(0deg);
-    visibility: visible;
     color: aliceblue;
     opacity: 1;
+    visibility: initial;
   }
 }
 /*# sourceMappingURL=./index-less.css.map */
