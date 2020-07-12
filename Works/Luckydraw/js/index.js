@@ -3,22 +3,22 @@ function Page(option) {
     this.liping = [{
         left: "0px",
         top: "0px",
-        name: "京东卡",
+        name: "京东卡10元",
         mm: "10元"
     }, {
         left: "150px",
         top: "0px",
-        name: "京东卡",
+        name: "京东卡20元",
         mm: "20元"
     }, {
         left: "300px",
         top: "0px",
-        name: "京东卡",
+        name: "京东卡30元",
         mm: "30元"
     }, {
         left: "300px",
         top: "150px",
-        name: "京东卡",
+        name: "京东卡100元",
         mm: "100元"
 
     }, {
@@ -29,12 +29,12 @@ function Page(option) {
     }, {
         left: "150px",
         top: "300px",
-        name: "京东卡",
+        name: "京东卡200元",
         mm: "200元"
     }, {
         left: "0px",
         top: "300px",
-        name: "京东卡",
+        name: "京东卡500元",
         mm: "500元"
 
 
@@ -65,10 +65,9 @@ Page.prototype.domElement = function() {
             this.style.display = "none"
             _this.start_text.style.display = "block"
             var bushu = _this.random(8, 0);
-            var quanshu = _this.random(4, 4);
+            var quanshu = _this.random(3, 6);
             // console.log("中奖索引:" + bushu);
             // console.log("转的圈数:" + quanshu);
-
 
             clearInterval(dsq);
             dsq = setInterval(function() {
@@ -82,21 +81,27 @@ Page.prototype.domElement = function() {
                 }
                 if (v1 >= quanshu && i == bushu) {
                     clearInterval(dsq);
-                    console.log(_this.liping[i].name, _this.liping[i].mm);
+                    setTimeout(function() {
+                            alert(_this.liping[i].name, _this.liping[i].mm)
+                        }, 600)
+                        // console.log(_this.liping[i].name, _this.liping[i].mm);
                     start_btn.style.display = "block"
                     _this.start_text.style.display = "none"
                     v1 = 0
                 }
 
-                animate(_this.active, {
-                    left: _this.liping[i].left,
-                    top: _this.liping[i].top
-                })
+                // animate(_this.active, {
+                //     left: _this.liping[i].left,
+                //     top: _this.liping[i].top
+                // })
+
+                _this.active.style.left = _this.liping[i].left
+                _this.active.style.top = _this.liping[i].top
 
                 _this.start_text.innerHTML = v1
 
 
-            }, 200)
+            }, 100)
 
         }
     }

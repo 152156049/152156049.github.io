@@ -16,6 +16,15 @@ jQuery(document).ready(function($) {
     });
 });
 $(function() {
+    $(".navbar-right li a").each(function(index, ele) {
+        $(ele).click(function() {
+            $('html').animate({
+                scrollTop: $('.y_Weiz').eq(index).offset().top
+            }, 500);
+
+        })
+
+    })
 
 
     $('.back-to-top a').on('click', function() {
