@@ -494,9 +494,6 @@ html {
 }
 
 @media (max-width:1170px) {
-    .cd-timeline-block {
-        /* text-align: center; */
-    }
     .cd-timeline-block a {
         display: inline-block;
     }
