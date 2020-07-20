@@ -35,9 +35,10 @@
     text-align: center;
 }
 
+.y_Weiz {}
+
 .y_biaoti_nr {
-    margin: auto auto;
-    border-radius: 30px;
+    margin-top: 50px;
     padding: 30px 20px;
     background-color: rgba(255, 255, 255, .3);
 }
@@ -49,8 +50,8 @@
 }
 
 .y_biaoti_nr .y_biaoti_row .thumbnail img {
-    border-radius: 10px 0 10px 0;
-    width: 35%;
+    border-radius: 50%;
+    width: 20%;
 }
 
 .y_biaoti_row>div {

@@ -89,13 +89,13 @@ html {
 }
 
 #big-banner {
-    background-image: url(../images/cool-xs.png);
+    background-image: url(../images/bg-01.jpg);
     /* background: linear-gradient(to bottom right, hsl(240, 7%, 21%), hsl(149, 59%, 22%)); */
     background-position: center;
     background-size: cover;
     /* margin-top: 100px; */
     width: 100%;
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     /* height: 650px; */
     background-repeat: no-repeat;
     /* overflow: hidden; */
