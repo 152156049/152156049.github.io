@@ -7,18 +7,14 @@
     const Province = {
         // 发送数据请求
         datarequest() {
-            Httpajax.get('http://api.tianapi.com/txapi/ncovcity/index?key=ac67f2bdd8d81b2cd18ad9b0599fa2ae').then(datas => {
+            Httpajax.get('https://api.tianapi.com/txapi/ncovcity/index?key=ac67f2bdd8d81b2cd18ad9b0599fa2ae').then(datas => {
                 datas = JSON.parse(datas)
                 let overalldata = datas.newslist
                 let fragment1 = document.createDocumentFragment();
                 let fragment2 = document.createDocumentFragment();
                 let provinciallevel = this.getdom('.y_container')
-                console.log(overalldata);
                 overalldata.map((v, i, arr) => {
-                    if (i == 1) {
-                        console.log(v);
 
-                    }
                     let y_panel = this.creaele('div')
                     y_panel.className = 'panel panel-default y_panel'
                     let panel_heading = this.creaele('div')

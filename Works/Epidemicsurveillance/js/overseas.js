@@ -9,7 +9,7 @@ const Overseas = {
     // 请求数据
     datarequest() {
         Httpajax.get(
-            "http://api.tianapi.com/txapi/ncovabroad/index?key=ac67f2bdd8d81b2cd18ad9b0599fa2ae"
+            "https://api.tianapi.com/txapi/ncovabroad/index?key=ac67f2bdd8d81b2cd18ad9b0599fa2ae"
         ).then((datas) => {
             datas = JSON.parse(datas);
             // console.log(datas);

@@ -5,7 +5,7 @@
     const Cumulative = {
         // 获取全国累计数据
         cumulative() {
-            Httpajax.get('http://api.tianapi.com/txapi/ncov/index?key=ac67f2bdd8d81b2cd18ad9b0599fa2ae').then(datas => {
+            Httpajax.get('https://api.tianapi.com/txapi/ncov/index?key=ac67f2bdd8d81b2cd18ad9b0599fa2ae').then(datas => {
                 datas = JSON.parse(datas)
                 let overalldata = datas.newslist[0].desc
                 let str = 'currentConfirmedCount,confirmedCount,curedCount,deadCount,suspectedCount,seriousCount,confirmedIncr,curedIncr,deadIncr,currentConfirmedIncr,suspectedIncr,seriousIncr'
