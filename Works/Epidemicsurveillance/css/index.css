@@ -91,13 +91,6 @@ body .box .statistics .statistics_bottom li:nth-of-type(2) p:nth-of-type(2) {
   border-right: 1px #eee3e3 solid;
   color: #037f52;
 }
-html .box .statistics .statistics_top li:nth-of-type(3) p:nth-of-type(2),
-body .box .statistics .statistics_top li:nth-of-type(3) p:nth-of-type(2),
-html .box .statistics .statistics_bottom li:nth-of-type(3) p:nth-of-type(2),
-body .box .statistics .statistics_bottom li:nth-of-type(3) p:nth-of-type(2) {
-  color: #252222;
-  border-right: 1px #eee3e3 solid;
-}
 html .box .statistics .statistics_bottom li:nth-of-type(1) p:nth-of-type(2),
 body .box .statistics .statistics_bottom li:nth-of-type(1) p:nth-of-type(2) {
   color: #f35523;
@@ -109,6 +102,13 @@ body .box .statistics .statistics_bottom li:nth-of-type(2) p:nth-of-type(2) {
 html .box .statistics .statistics_bottom li:nth-of-type(3) p:nth-of-type(2),
 body .box .statistics .statistics_bottom li:nth-of-type(3) p:nth-of-type(2) {
   color: #e1860e;
+}
+html .box .y_quanqiu .statistics_top li:nth-of-type(3) p:nth-of-type(2),
+body .box .y_quanqiu .statistics_top li:nth-of-type(3) p:nth-of-type(2),
+html .box .y_quanqiu .statistics_bottom li:nth-of-type(3) p:nth-of-type(2),
+body .box .y_quanqiu .statistics_bottom li:nth-of-type(3) p:nth-of-type(2) {
+  color: #252222;
+  border-right: 1px #eee3e3 solid;
 }
 html .box .y_container,
 body .box .y_container {
