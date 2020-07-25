@@ -293,6 +293,11 @@
     letter-spacing: 2px;
 }
 
+.caption h3 {
+    font-size: 2vw;
+    text-align: center;
+}
+
 
 /* 6主题结束 */
 
