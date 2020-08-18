@@ -1,0 +1,563 @@
+html {
+  margin: 0;
+  padding: 0;
+
+  body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    .box {
+      width: 60%;
+      // height: 300px;
+      border: 1px red solid;
+
+      h1 {
+        text-align: center;
+      }
+
+      ul {
+        list-style: none;
+        // font-size: 0px;
+        padding: 0 10px;
+        margin: 0;
+
+        // 2D转换
+        &:nth-of-type(1) li {
+          padding: 20px;
+          margin: 5px 10px 0 5px;
+          font-size: 16px;
+          display: inline-block;
+          color: #fff;
+          background-color: #7fbb6d;
+          transition: all 0.5s;
+
+          &:nth-of-type(1):hover {
+            animation: mymaicho 0.5s infinite alternate;
+          }
+
+          &:nth-of-type(2):hover {
+            animation: mylxyy 0.3s 1 alternate;
+          }
+
+          &:nth-of-type(3):hover {
+            animation: myhang 0.5s infinite alternate;
+          }
+
+          &:nth-of-type(4):hover {
+            animation: myyouxiaj 0.5s 1 alternate;
+          }
+
+          &:nth-of-type(5) {
+            transform-origin: bottom center;
+          }
+
+          &:nth-of-type(5):hover {
+            animation: mybai 0.5s 1 alternate;
+          }
+
+          &:nth-of-type(6) {
+            transform-origin: top center;
+          }
+
+          &:nth-of-type(6):hover {
+            animation: mybai 0.5s 1 alternate;
+          }
+
+          &:nth-of-type(7):hover {
+            animation: mybai 0.5s 1 alternate;
+          }
+
+          &:nth-of-type(8) {
+            transform-origin: left center;
+          }
+
+          &:nth-of-type(8):hover {
+            animation: mywweng 0.5s 2 alternate;
+          }
+
+          &:nth-of-type(9):hover {
+            transform: scale(1.1) rotate(-5deg);
+          }
+
+          &:nth-of-type(10):hover {
+            animation: mytantiao 0.5s 1;
+            transform: scale(0.8);
+          }
+        }
+
+        // 背景转换
+        &:nth-of-type(2) li {
+          padding: 20px;
+          margin: 5px 10px 0 5px;
+          font-size: 16px;
+          display: inline-block;
+          color: #010603;
+          background-color: #7fbb6d;
+          transition: all 0.5s;
+          position: relative;
+          z-index: 0;
+          overflow: hidden;
+          &:hover {
+            color: #fff;
+          }
+          &:nth-of-type(1):hover {
+            background-color: #5f9fce;
+          }
+
+          &::after {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            transition: all 0.5s;
+            z-index: -1;
+          }
+          &:nth-of-type(2)::after {
+            background-color: #5f9fce;
+
+            left: -100%;
+          }
+          &:nth-of-type(2):hover::after {
+            left: 0;
+          }
+          &:nth-of-type(3)::after {
+            background-color: #5f9fce;
+
+            left: 100%;
+          }
+          &:nth-of-type(3):hover::after {
+            left: 0;
+          }
+          &:nth-of-type(4)::after {
+            background-color: #5f9fce;
+
+            top: 100%;
+          }
+          &:nth-of-type(4):hover::after {
+            top: 0;
+          }
+          &:nth-of-type(5)::after {
+            background-color: #5f9fce;
+
+            top: -100%;
+          }
+          &:nth-of-type(5):hover::after {
+            top: 0;
+          }
+          &:nth-of-type(6)::after {
+            background-color: #5f9fce;
+
+            left: -100%;
+          }
+          &:nth-of-type(6):hover::after {
+            animation: moveleft 0.5s 1;
+            left: 0;
+          }
+          &:nth-of-type(7)::after {
+            background-color: #5f9fce;
+
+            left: 100%;
+          }
+          &:nth-of-type(7):hover::after {
+            animation: moveright 0.5s 1;
+            left: 0;
+          }
+          &:nth-of-type(8)::after {
+            background-color: #5f9fce;
+            top: -100%;
+          }
+          &:nth-of-type(8):hover::after {
+            animation: movetop 0.5s 1;
+            top: 0;
+          }
+          &:nth-of-type(9)::after {
+            background-color: #5f9fce;
+
+            top: 100%;
+          }
+          &:nth-of-type(9):hover::after {
+            animation: movebottom 0.5s 1;
+            top: 0;
+          }
+
+          &:nth-of-type(10)::after {
+            background-color: #5f9fce;
+            border-radius: 50%;
+            transform: scale(0);
+          }
+          &:nth-of-type(10):hover::after {
+            transform: scale(1.5);
+          }
+
+          &:nth-of-type(11) {
+            background-color: #5f9fce;
+          }
+          &:nth-of-type(11)::after {
+            background-color: #7fbb6d;
+            border-radius: 50%;
+            transform: scale(1.5);
+          }
+          &:nth-of-type(11):hover::after {
+            transform: scale(0);
+          }
+
+          &:nth-of-type(12)::after {
+            background-color: #5f9fce;
+            transform: scale(0);
+          }
+          &:nth-of-type(12):hover::after {
+            transform: scale(1.5);
+          }
+
+          &:nth-of-type(13) {
+            background-color: #5f9fce;
+          }
+          &:nth-of-type(13)::after {
+            background-color: #7fbb6d;
+            transform: scale(1.5);
+          }
+          &:nth-of-type(13):hover::after {
+            transform: scale(0);
+          }
+
+          &:nth-child(n + 14)::before {
+            content: "";
+            background-color: #5f9fce;
+            position: absolute;
+            top: 0;
+            right: -50%;
+            width: 50%;
+            height: 100%;
+            transition: all 0.5s;
+            z-index: -1;
+          }
+          &:nth-of-type(14)::after {
+            background-color: #5f9fce;
+            left: -50%;
+            width: 50%;
+            height: 100%;
+          }
+          &:nth-of-type(14):hover {
+            &::after {
+              left: 0;
+            }
+            &::before {
+              right: 0;
+            }
+          }
+
+          &:nth-of-type(15)::after {
+            background-color: #5f9fce;
+            left: 50%;
+            transform-origin: left center;
+            transform: rotate(180deg);
+            width: 0;
+            height: 100%;
+          }
+          &:nth-of-type(15)::before {
+            left: 50%;
+            width: 0;
+            height: 100%;
+          }
+          &:nth-of-type(15):hover {
+            &::after {
+              width: 50%;
+            }
+            &::before {
+              width: 50%;
+            }
+          }
+
+          &:nth-of-type(16)::before {
+            top: 100%;
+            right: 0;
+            width: 100%;
+            height: 50%;
+          }
+          &:nth-of-type(16)::after {
+            background-color: #5f9fce;
+            top: -50%;
+            width: 100%;
+            height: 50%;
+          }
+          &:nth-of-type(16):hover {
+            &::after {
+              top: 0;
+            }
+            &::before {
+              top: 50%;
+            }
+          }
+
+          &:nth-of-type(17)::after {
+            background-color: #5f9fce;
+            top: 50%;
+            width: 100%;
+            height: 0;
+            transform-origin: top center;
+            transform: rotate(180deg);
+          }
+          &:nth-of-type(17)::before {
+            top: 50%;
+            right: 0;
+            width: 100%;
+            height: 0;
+          }
+          &:nth-of-type(17):hover {
+            &::after {
+              height: 50%;
+            }
+            &::before {
+              height: 50%;
+            }
+          }
+        }
+
+        // 边境过渡
+      }
+    }
+  }
+}
+
+// 2D转换动画------------------
+// 脉冲
+@keyframes mymaicho {
+  form {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+// 流行音乐
+@keyframes mylxyy {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// Hang
+@keyframes myhang {
+  form {
+    transform: translateY(3px);
+  }
+
+  to {
+    transform: translateY(8px);
+  }
+}
+
+// 摇到右下角
+@keyframes myyouxiaj {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  20% {
+    transform: translate(-13px, -13px);
+  }
+
+  40% {
+    transform: translate(10px, 10px);
+  }
+
+  60% {
+    transform: translate(-6px, -6px);
+  }
+
+  80% {
+    transform: translate(3px, 3px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+// 摆顶/摆底
+@keyframes mybai {
+  0% {
+    transform: skewX(0px);
+  }
+
+  20% {
+    transform: skewX(-10deg);
+  }
+
+  40% {
+    transform: skewX(8deg);
+  }
+
+  60% {
+    transform: skewX(-6deg);
+  }
+
+  80% {
+    transform: skewX(3deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+// 嗡嗡声
+@keyframes mywweng {
+  0% {
+    transform: rotate(0px);
+  }
+
+  15% {
+    transform: rotate(-2deg);
+  }
+
+  30% {
+    transform: rotate(2deg);
+  }
+
+  45% {
+    transform: rotate(-2deg);
+  }
+
+  60% {
+    transform: rotate(2deg);
+  }
+
+  75% {
+    transform: rotate(-1deg);
+  }
+
+  90% {
+    transform: rotate(1deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+// 弹跳
+@keyframes mytantiao {
+  0% {
+    transform: scale(1);
+  }
+
+  20% {
+    transform: scale(0.8);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+// 背景转换动画------------------
+// 弹跳
+@keyframes moveleft {
+  0% {
+    left: -100%;
+  }
+  30% {
+    left: 0;
+  }
+  50% {
+    left: -20%;
+  }
+  70% {
+    left: 0;
+  }
+  90% {
+    left: -10%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes moveright {
+  0% {
+    left: 100%;
+  }
+  30% {
+    left: 0;
+  }
+  50% {
+    left: 20%;
+  }
+  70% {
+    left: 0;
+  }
+  90% {
+    left: 10%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes movetop {
+  0% {
+    top: -100%;
+  }
+  30% {
+    top: 0;
+  }
+  50% {
+    top: -20%;
+  }
+  70% {
+    top: 0;
+  }
+  90% {
+    top: -10%;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes movebottom {
+  0% {
+    top: 100%;
+  }
+  30% {
+    top: 0;
+  }
+  50% {
+    top: 20%;
+  }
+  70% {
+    top: 0;
+  }
+  90% {
+    top: 10%;
+  }
+  100% {
+    top: 0;
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画板(pc端)</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>个性画板</h1>
+    </div>
+    <div class="box-a">
+        <div class="holdall">
+            <input type="color" class="colorset">
+            <div class="box-size">
+                <div class="rangeset">
+                    大小
+                    <input type="range" min="1" max="100" value="10">
+                    <span>10</span>
+                </div>
+            </div>
+            <button class="pen">手写笔</button>
+            <button class="eraser">橡皮擦</button>
+            <button class="empty">清空</button>
+        </div>
+        <div class="box-canvas">
+            <canvas id="canvas" width="1000" height="500"></canvas>
+        </div>
+
+    </div>
+    <img id="scream" src="./img/backbai.png" style="display: none;">
+</body>
+<script src="./js/index.js"></script>
+
+</html>
